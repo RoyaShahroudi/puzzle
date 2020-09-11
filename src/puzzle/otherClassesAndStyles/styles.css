@@ -1,0 +1,78 @@
+#numbers {
+    -fx-font-size: 30;
+
+
+    -fx-text-fill: rgb(35, 8, 66);
+    -fx-font-weight: bold;
+}
+#tiles {
+    -fx-cursor: hand;
+    -fx-text-fill: rgb(102, 180, 233);
+    -fx-background-color: rgb(17, 108, 182);
+    -fx-background-color: rgb(54, 34, 146);
+    -fx-stroke-width: 5;
+    -fx-stroke-color: rgb(5, 7, 129);
+
+
+}
+
+.mainAnchor{
+    -fx-background-color: rgb(33, 0, 85);
+
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+}
+.titleLabel {
+    -fx-text-fill: white;
+    -fx-font-size: 35;
+    -fx-font-weight: bold;
+}
+.puzzleLabel {
+    -fx-text-fill: white;
+    -fx-font-size: 45;
+    -fx-font-weight: bold;
+}
+#highRankLabel1 {
+    -fx-text-fill: rgb(219, 223, 6);
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+}
+.button {
+    -fx-cursor: hand;
+    -fx-background-color: rgb(115, 61, 202);
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+
+}
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: rgb(33, 0, 85);
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.playBtn:hover {
+    -fx-text-fill: green;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+.exitBtn:hover {
+    -fx-text-fill: red;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.textField {
+    -fx-font-size: 15;
+}
+.result {
+    -fx-text-fill: yellow;
+    -fx-font-size: 45;
+    -fx-font-weight: bold;
+}
+

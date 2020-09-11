@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" styleClass="mainAnchor" stylesheets="@../otherClassesAndStyles/styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="puzzle.controllers.Levels">
+   <children>
+      <Label alignment="CENTER" layoutX="369.0" layoutY="64.0" prefHeight="52.0" prefWidth="162.0" styleClass="titleLabel" text="LEVELS">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="353.0" layoutY="245.0" prefHeight="183.0" prefWidth="194.0" spacing="30.0">
+         <children>
+            <Button fx:id="easyBtn" mnemonicParsing="false" onAction="#easyBtn" prefHeight="38.0" prefWidth="84.0" text="Easy">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="normalBtn" mnemonicParsing="false" onAction="#normalBtn" prefHeight="45.0" prefWidth="130.0" text="Normal">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="hardBtn" mnemonicParsing="false" onAction="#hardBtn" prefHeight="51.0" prefWidth="170.0" text="Hard">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
